@@ -6,10 +6,22 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito+Sans:wght@300;400;700&display=swap');
 
+.fundo{
+    position: fixed;
+    filter: brightness(50%);
+}
+
+.fundo img{
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    
+}
+
 .navbar-menu{
     padding: 15px 0;
     width: 100%;
-    position: fixed;
+    position: absolute;
     font-family: nunito, sans-serif;
 }
 
@@ -27,19 +39,97 @@
     width: 88px;
 }
 
-li {
+.container li {
     display: inline-block;
     margin: 15px;
 }
 
 a{
-    font-size: 17px;
+    font-size: 15px;
     text-decoration: none;
+    color: white;
+    font-weight: bold;
 }
 
-.fundo{
-    background-blend-mode: darken;
-    background-color: rgba(0, 0, 0, 0.7);
-    background-size: cover;
-    filter: brightness(30%);
+a:hover{
+    cursor: pointer;
+}
+
+.principal{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    top: 30%;
+    left: 26%;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-family: nunito, sans-serif;
+}
+
+h4{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+h1{
+    font-size: 80px;
+    margin: 15px 0;
+    font-weight: lighter;
+}
+
+span{
+    font-weight: bold;
+}
+
+.principal li{
+    margin: 30px 20px;
+    display: inline-block;
+    margin: 15px;
+}
+
+#curriculo{
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50px;
+    font-size: 15px;
+    font-family: nunito, sans-serif;
+    font-weight: lighter;
+    margin-top: 30px;
+}
+
+#curriculo:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+
+#down{
+    width: 30px;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50px;
+    font-size: 15px;
+    font-family: nunito, sans-serif;
+    font-weight: lighter;
+    margin-top: 30px;
+}
+
+#down:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+
+.btn-principal{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
 }
