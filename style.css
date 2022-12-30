@@ -13,22 +13,21 @@
 
 .fundo img{
     background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
-    
+    width: auto;
+    height: auto;
 }
 
 .navbar-menu{
     padding: 15px 0;
     width: 100%;
-    position: absolute;
+    position: fixed;
     font-family: nunito, sans-serif;
 }
 
 .container{
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: auto;
     flex-direction: row;
     align-items: center;
     padding-left: 100px;
@@ -118,7 +117,7 @@ span{
     font-size: 15px;
     font-family: nunito, sans-serif;
     font-weight: lighter;
-    margin-top: 30px;
+    margin-top: 70px;
 }
 
 #down:hover{
@@ -133,3 +132,26 @@ span{
     justify-content: center;
     align-items: center;
 }
+
+#sobre{
+    position: relative;
+    background-color: white;
+    top: 650px;
+    padding: 40px 20px;
+    text-align: center;
+    width: 100%;
+}
+
+#sobre p{
+    text-align: center;
+    position: center;
+    width: 600px;
+    display:block;
+    margin: auto;
+}
+
+#sobre img{
+    width: 200px;
+    border-radius: 50%;
+}
+
