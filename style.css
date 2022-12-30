@@ -36,3 +36,7 @@ a{
     font-size: 17px;
     text-decoration: none;
 }
+
+.img-fundo{
+    background-blend-mode: darken;
+}
