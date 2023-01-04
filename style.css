@@ -163,3 +163,11 @@ span{
     border-radius: 50%;
 }
 
+.porcentagens{
+    display: flex;
+}
+
+.titulo-porcentagem{
+    display: block;
+    justify-content: space-between;
+}
