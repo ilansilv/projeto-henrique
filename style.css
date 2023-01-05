@@ -64,7 +64,7 @@ a:hover{
     display: block;
     align-items: center;
     justify-content: center;
-    top: 30%;
+    top: 25%;
     left: 26%;
     position: absolute;
     text-align: center;
@@ -80,7 +80,7 @@ h4{
 }
 
 h1{
-    font-size: 80px;
+    font-size: 60px;
     margin: 15px 0;
     font-weight: lighter;
 }
@@ -146,16 +146,14 @@ span{
     background-color: white;
     top: 650px;
     padding: 40px 20px;
-    text-align: center;
-    width: 100%;
+    text-align: center; 
+    align-items: center;
 }
 
 #sobre p{
-    text-align: center;
-    position: center;
-    width: 600px;
+    width: 800px;
     display:block;
-    margin: auto;
+    margin: 20px auto;
 }
 
 #sobre img{
@@ -163,11 +161,70 @@ span{
     border-radius: 50%;
 }
 
-.porcentagens{
-    display: flex;
+.grid-porcentagens{
+    margin: 30px;
+    width: 75%;
+    transform: translateX(11%);
+    left: 50%;
+    font-family: nunito, sans-serif;
+    
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 40px 40px 40px 40px;
+    gap: 10px 10px;
 }
 
 .titulo-porcentagem{
-    display: block;
+    display: flex;
     justify-content: space-between;
 }
+
+.progress{
+    height: 3px;
+    background-color: #a9a9a9;
+}
+
+.progress-bar{
+    background-color: black;
+}
+
+.w-92{
+    width: 92%;
+    height: 3px;
+}
+
+.w-87{
+    width: 87%;
+    height: 3px;
+}
+
+.w-85{
+    width: 85%;
+    height: 3px;
+}
+
+.w-61{
+    width: 61%;
+    height: 3px;
+}
+
+.w-81{
+    width: 81%;
+    height: 3px;
+}
+
+.w-83{
+    width: 83%;
+    height: 3px;
+}
+
+.w-87{
+    width: 87%;
+    height: 3px;
+}
+
+.w-86{
+    width: 86%;
+    height: 3px;
+}
+
