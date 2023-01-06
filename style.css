@@ -26,8 +26,8 @@
     padding: 15px 0;
     width: 100%;
     position: fixed;
-    font-family: nunito, sans-serif;
-    /* z-index: 5; */
+    font-family: Nunito, sans-serif;
+    z-index: 5;
 }
 
 .container{
@@ -141,7 +141,7 @@ span{
     align-items: center;
 }
 
-#sobre{
+#sobre {
     position: relative;
     background-color: white;
     top: 650px;
@@ -228,3 +228,54 @@ span{
     height: 3px;
 }
 
+#conhecimentos {
+    position: relative;
+    background-color: #f8f9fa;
+    top: 650px;
+    padding: 40px 20px;
+    text-align: center; 
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+}
+
+#c-paragraf {
+    width: 600px;
+    /* display:block; */
+    margin: 20px auto;
+}
+
+.card-area {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 1.5rem;
+    justify-content: center;
+}
+
+.card-division {
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+    align-items: center;
+}
+
+.card {
+    margin-top: 24px;
+    border: 1px solid #e7e7e7;
+    border-radius: 0.25rem;
+    padding: 24px;
+    text-align: center;
+    width: 350px;
+    height: 232px;
+}
+
+.card-content p{
+    font-family: 'Nunito', sans-serif;
+    color: #4e4e4e;
+}
+
+.card-content h5{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.2;
+}
