@@ -28,6 +28,7 @@
     position: fixed;
     font-family: Nunito, sans-serif;
     z-index: 5;
+    background-color: #4e4e4e;
 }
 
 .container{
@@ -278,4 +279,13 @@ span{
     font-weight: 700;
     font-size: 1.25rem;
     line-height: 1.2;
+}
+
+.resumo{
+    background-image: url(./images/fundo-resumo.webp);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 120vh;
 }
